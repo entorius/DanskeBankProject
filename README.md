@@ -8,3 +8,5 @@ npm commands:
 "npm start webpack" : to recompile code and for watching changes in code
 
 "npm start jsonServer" : command to start local server
+
+(all the commands can be found in package.json file)

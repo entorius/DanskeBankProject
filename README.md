@@ -9,4 +9,6 @@ npm commands:
 
 "npm start jsonServer" : command to start local server
 
+The program was created on "Visual Studio 2019" with c# framework and React library
+
 (all the commands can be found in package.json file)

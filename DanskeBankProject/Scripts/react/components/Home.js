@@ -182,22 +182,7 @@ export default class Home extends React.Component {
         this.setState({ exposure: exposureData.exposure });
         document.getElementById("myOverlay").style.width = "100%";
     }
-    
-    onSubmit() {
-        this.dialog.show({
-            title: 'Greedings',
-            body: 'How are you?',
-            actions: [
-                Dialog.CancelAction(),
-                Dialog.OKAction()
-            ],
-            bsSize: 'small',
-            onHide: (dialog) => {
-                dialog.hide()
-                console.log('closed by clicking background.')
-            }
-        })
-    }
+   
     showOverlay() {
         window.onload = function () {
             document.getElementById("myOverlay").style.width = "100%";
